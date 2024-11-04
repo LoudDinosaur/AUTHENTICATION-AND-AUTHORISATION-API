@@ -20,8 +20,8 @@ c. **isInstructor**: For Instructor access
 6. **dotenv**: Environment variable management
 7. **cookie-parser**: Parses cookies to manage sessions
 
-## API Endpoints
-# Authentication Routes
+# API Endpoints
+## Authentication Routes
 1. POST **/signup**: Register a new user
 2. POST **/login**: User login
 **Protected Routes (Require JWT & Role-Based Access)**
