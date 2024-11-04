@@ -28,9 +28,9 @@ c. **isInstructor**: For Instructor access
 1. POST /test: Access granted only to authorized roles (Student, Admin, Instructor)
 
 ## Usage
-Base URL: http://localhost:4000/api/v1
-/test: Requires valid JWT token and appropriate user role for access
+1. **Base UR**L: http://localhost:4000/api/v1
+2. **/test**: Requires valid JWT token and appropriate user role for access
 
 ## Middleware
-auth: JWT verification for user authentication
-isStudent, isAdmin, isInstructor: Role-based access control
+1. **auth**: JWT verification for user authentication
+2. **isStudent, isAdmin, isInstructor**: Role-based access control
