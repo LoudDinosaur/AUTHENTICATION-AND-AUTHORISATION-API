@@ -5,9 +5,9 @@ A REST API for secure user authentication and authorization built with Express, 
 ## Features
 1. User Registration and Login with hashed passwords
 2. Role-Based Access Control with middleware functions:
-     a. **isStudent**: For Student access
-     b. **isAdmin**: For Admin access
-     c. **isInstructor**: For Instructor access
+a. **isStudent**: For Student access
+b. **isAdmin**: For Admin access
+c. **isInstructor**: For Instructor access
 3. JWT Authentication with secure session management using cookies
 4. Protected Routes accessible only by authorized roles
 
