@@ -3,13 +3,13 @@
 A REST API for secure user authentication and authorization built with Express, MongoDB Atlas, and JWT. It includes role-based access control for different user roles: Student, Admin, and Instructor.
 
 ## Features
--> User Registration and Login with hashed passwords
--> Role-Based Access Control with middleware functions:
+1. User Registration and Login with hashed passwords
+2. Role-Based Access Control with middleware functions:
      **isStudent**: For Student access
      **isAdmin**: For Admin access
      **isInstructor**: For Instructor access
--> JWT Authentication with secure session management using cookies
--> Protected Routes accessible only by authorized roles
+3. JWT Authentication with secure session management using cookies
+4. Protected Routes accessible only by authorized roles
 
 ## Technologies Used
 1. **Express.j**s: Backend framework
